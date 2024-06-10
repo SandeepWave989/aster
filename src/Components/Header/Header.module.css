@@ -1,0 +1,26 @@
+.iconSearch{
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    transform: translate(-50%,-50%);
+}
+
+.searchBackground{
+    background-color: var(--search_color) !important;
+}
+.searchBackground:focus{
+    background-color:var(--white) !important;
+    /* outline: none !important; */
+    box-shadow: none !important;
+}
+
+.widthSearch{
+    width: 25%;
+}
+.menu_list{
+    color: var(--textColor) !important;
+}
+
+#basic-navbar-nav{
+    text-transform : uppercase !important;
+}

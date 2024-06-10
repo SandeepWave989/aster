@@ -1,0 +1,57 @@
+.carousel-indicators {
+    display: none !important;
+}
+
+.carousel-control-next{
+    top: 50% !important;
+    right: 0% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 3% !important;
+    height: 10% !important;
+    border-radius: 0.5rem;
+    background:rgb(32, 32, 32) !important;
+}
+
+.carousel-control-prev{
+    position: absolute;
+    top: 50% !important;
+    left: 2.5% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 3% !important;
+    height: 10% !important;
+    border-radius: 0.5rem;
+    background:rgb(32, 32, 32) !important;
+}
+
+.formbg{
+    background-color: var(--formBg);
+}
+
+.specialities_info_heading{
+    background-color: var(--main2);
+    color: var(--white);
+    font-weight: 400;
+    font-weight: normal;
+}
+
+.aster_latest_info .swiper .swiper-button-prev, .swiper-button-next {
+    color: #1c3f73 !important;
+}
+
+.swiper-slide.swiper-slide-active.aster_latest_img {
+    height: 500px !important;
+    /* overflow: hidden; */
+}
+.swiper-slide.swiper-slide-active.aster_latest_img img{
+    height: 500px !important;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.swiper-slide.swiper-slide-active.aster_latest_img video{
+    height: 460px !important;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}

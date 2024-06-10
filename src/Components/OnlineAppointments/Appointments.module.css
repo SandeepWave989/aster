@@ -1,0 +1,34 @@
+.title{
+    color: var(--main);
+}
+
+.aster_benefitscard{
+    box-shadow:0 0 10px 2px #b2b2b2;
+}
+
+.step_card{
+    box-shadow:0 0 10px 2px #b2b2b2;
+    height: 550px;
+}
+
+.step_counter{
+    background: var(--main);
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translate(-50%,0);
+    color: var(--white);
+    text-align: center;
+    border-radius: 1.5rem;
+}
+
+.buttonAppointments {
+    padding: 20px;
+    width: 65%;
+    border-radius: 1rem;
+}
+
+.healthcare_Assistant_section{
+    background-color: #E6E6E6;
+}
+

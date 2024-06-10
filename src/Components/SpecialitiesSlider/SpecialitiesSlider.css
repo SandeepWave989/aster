@@ -1,0 +1,16 @@
+.specialities_details img {
+    width: 65%;
+}
+
+.specialities_text{
+    color: var(--main);
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #A6A8AB !important;
+}
+
+.aster_latest_info{
+    background-color: var(--main);
+    color: var(--white);
+}
